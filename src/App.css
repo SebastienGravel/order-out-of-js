@@ -1,0 +1,80 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
+
+.logo-runtime {
+  height: 6em;
+}
+
+.about{
+  color: #818181;
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.update{
+  color:#818181;
+  font-size: 0.8em;
+}
+
+.type{
+  color:#818181;
+  font-size: 0.8em;
+}
+
+.techno{
+  /*
+  background: rgb(24,24,24);
+  background: linear-gradient(0deg, rgb(24,24,24) 0%, rgb(36, 36, 36) 100%); 
+  border-radius: 0.8em;
+  */
+  padding:0.8em;
+  margin-bottom: 0.75em;
+  border-bottom: solid thin #4a4a4a49;
+}
+
+.npm-container{
+  margin-top:0.2em;
+  padding:0.5em 0.75em;
+  background-color: #0e0d0d;
+  border-radius: 0.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

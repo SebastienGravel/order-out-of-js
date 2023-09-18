@@ -1,0 +1,335 @@
+{
+  "data" : [
+      {
+        "name" : "Javascript",
+        "url" : "https://developer.mozilla.org/en-US/docs/Web/javascript",
+        "type" : "Top of the pyramid",
+        "npm" : [""],
+        "logo" : "js_logo.svg"
+      },
+      {
+        "name" : "Typescript",
+        "url" : "https://www.typescriptlang.org/docs/",
+        "type" : "Typed programming language that builds on JavaScript",
+        "npm" : ["npm install typescript --save-dev"],
+        "logo" : "typescript.svg"
+      },
+      {
+        "name" : "NodeJS",
+        "url" : "https://nodejs.org/en",
+        "type" : "Javascript Runtime",
+        "npm" : [""],
+        "logo" : "node.svg"
+      },
+      {
+        "name" : "Deno",
+        "url" : "https://docs.deno.com/runtime/manual/getting_started/installation",
+        "type" : "Javascript Runtime",
+        "npm" : [""],
+        "logo" : "deno.svg"
+      },
+      {
+        "name" : "Bun",
+        "url" : "https://bun.sh/",
+        "type" : "Javascript Runtime",
+        "npm" : [""],
+        "logo" : "bun.svg"
+      },
+      {
+        "name" : "Vite",
+        "url" : "https://vitejs.dev/config/",
+        "type" : "Frontend tooling",
+        "npm" : ["npm create vite@latest"],
+        "logo" : "vite.svg"
+      },
+      {
+        "name" : "T3",
+        "url" : "https://create.t3.gg/en/usage/first-steps",
+        "type" : "Full-stack, typesafe Next.js app creator",
+        "npm" : ["npm create t3-app@latest"],
+        "logo" : "t3-light.svg"
+      },
+      {
+        "name" : "Express",
+        "url" : "https://expressjs.com/en/4x/api.html",
+        "type" : "Minimalist web framework",
+        "npm" : ["npm install express --save"],
+        "logo" : "expressjs.svg"
+      },
+      {
+        "name" : "Fastify",
+        "url" : "https://fastify.dev/docs/latest/",
+        "type" : "Minimalist web framework",
+        "npm" : ["npm install fastify"],
+        "logo" : "fastify.svg"
+      },
+      {
+        "name" : "Astro",
+        "url" : "https://docs.astro.build/en/getting-started/",
+        "type" : "Web framework",
+        "npm" : ["npm create astro@latest"],
+        "logo" : "astro.svg"
+      },
+      {
+        "name" : "React",
+        "url" : "https://react.dev/reference/react",
+        "type" : "UI library", 
+        "npm" : ["npx create-react-app my-app","npm install react@latest react-dom@latest"],
+        "logo" : "react.svg"
+      },
+      {
+        "name" : "NextJS",
+        "url" : "https://nextjs.org/docs",
+        "type" : "Web framework for React",
+        "npm" : ["npx create-next-app@latest", "npm install next@latest react@latest react-dom@latest"],
+        "logo" : "nextjs.svg"
+      },
+      
+      
+      {
+        "name" : "Vue",
+        "url" : "https://vuejs.org/guide/",
+        "type" : "UI library", 
+        "npm" : ["npm create vue@latest"],
+        "logo" : "vue.svg"
+      },
+      {
+        "name" : "Nuxt",
+        "url" : "https://nuxt.com/docs",
+        "type" : "Web framework for Vue",
+        "npm" : ["npx nuxi@latest init my-app"],
+        "logo" : "nuxt.svg"
+      },
+      {
+        "name" : "Solid",
+        "url" : "https://www.solidjs.com/guides/getting-started",
+        "type" : "UI library", 
+        "npm" : ["npx degit solidjs/templates/js my-app","npx degit solidjs/templates/ts my-app"],
+        "logo" : "solid.svg"
+      },
+      {
+        "name" : "SolidStart",
+        "url" : "https://start.solidjs.com/getting-started/project-setup",
+        "type" : "Web framework for Solid",
+        "npm" : ["npm init solid@latest"],
+        "logo" : "solidstart.svg"
+      },
+      {
+        "name" : "Svelte and SvelteKit",
+        "url" : "https://vuejs.org/guide/",
+        "type" : "UI library, Web framework",
+        "npm" : ["npm create svelte@latest my-app"],
+        "logo" : "svelte.svg"
+      },
+      {
+        "name" : "Angular",
+        "url" : "https://angular.io/docs",
+        "type" : "UI library", 
+        "npm" : ["npm install -g @angular/cli"],
+        "logo" : "angular.svg"
+      },
+      {
+        "name" : "Analog",
+        "url" : "https://analogjs.org/docs",
+        "type" : "Web framework for Angular",
+        "npm" : ["npm create analog@latest"],
+        "logo" : "analog.svg"
+      },
+      {
+        "name" : "Qwik",
+        "url" : "https://qwik.builder.io/docs/",
+        "type" : "Web framework", 
+        "npm" : ["npm create qwik@latest"],
+        "logo" : "qwik.svg"
+      },
+      {
+        "name" : "NestJS",
+        "url" : "https://docs.nestjs.com/",
+        "type" : "Web framework",
+        "npm" : ["npm i -g @nestjs/cli","nest new project-name"],
+        "logo" : "nestjs.svg"
+      },
+      {
+        "name" : "Remix",
+        "url" : "https://remix.run/docs/en/1.19.3",
+        "type" : "Web framework",
+        "npm" : ["npx create-remix@latest"],
+        "logo" : "remix.svg"
+      },
+      {
+        "name" : "Inferno",
+        "url" : "https://www.infernojs.org/docs/guides/installation",
+        "type" : "Web framework",
+        "npm" : ["npx create-inferno-app my-app"],
+        "logo" : "inferno.svg"
+      },
+      {
+        "name" : "Ember",
+        "url" : "https://guides.emberjs.com/release/",
+        "type" : "Web framework",
+        "npm" : ["npm install -g ember-cli","ember new my-app --lang en"],
+        "logo" : "ember.svg"
+      },
+      {
+        "name" : "Preact",
+        "url" : "https://preactjs.com/guide/v10/getting-started",
+        "type" : "UI library", 
+        "npm" : ["npm install preact"],
+        "logo" : "preact.svg"
+      },
+      {
+        "name" : "Lit",
+        "url" : "https://lit.dev/docs/",
+        "type" : "UI library", 
+        "npm" : ["npm install lit"],
+        "logo" : "lit.svg"
+      },
+      {
+        "name" : "AlpineJS",
+        "url" : "https://alpinejs.dev/start-here",
+        "type" : "UI library", 
+        "npm" : ["npm install alpinejs"],
+        "logo" : "alpine.svg"
+      },
+      {
+        "name" : "htmx",
+        "url" : "https://htmx.org/docs/",
+        "type" : "UI library for HTML", 
+        "npm" : ["npm install htmx.org"],
+        "logo" : "htmx.svg"
+      },
+      {
+        "name" : "RxJS",
+        "url" : "https://rxjs.dev/guide/overview",
+        "type" : "UI Library",
+        "npm" : ["npm install rxjs"],
+        "logo" : "rxjs.png"
+      },
+      {
+        "name" : "MySQL",
+        "url" : "https://www.npmjs.com/package/mysql",
+        "type" : "SQL database",
+        "npm" : ["npm install mysql"],
+        "logo" : "mysql-icon.svg"
+      },
+      {
+        "name" : "Postgres",
+        "url" : "https://node-postgres.com/",
+        "type" : "SQL database",
+        "npm" : ["npm install pg"],
+        "logo" : "postgresql-icon.svg"
+      },
+      {
+        "name" : "SQLite",
+        "url" : "https://github.com/TryGhost/node-sqlite3/wiki/API",
+        "type" : "SQL database",
+        "npm" : ["npm install sqlite3"],
+        "logo" : "sqlite-icon.svg"
+      },
+      {
+        "name" : "MongoDB",
+        "url" : "https://www.mongodb.com/languages/javascript/mongodb-and-npm-tutorial",
+        "type" : "NoSQL database",
+        "npm" : ["npm install mongodb","&& npm install dotenv"],
+        "logo" : "mongodb-icon.svg"
+      },
+      {
+        "name" : "Redis",
+        "url" : "https://redis.io/docs/clients/nodejs/",
+        "type" : "In-memory storage",
+        "npm" : ["npm install redis"],
+        "logo" : "redis.svg"
+      },
+      {
+        "name" : "Prisma ORM",
+        "url" : "https://www.prisma.io/docs/getting-started/quickstart",
+        "type" : "Database ORM",
+        "npm" : ["npm install prisma --save-dev","&& npx prisma init --datasource-provider db_driver"],
+        "logo" : "prisma.svg"
+      },
+      {
+        "name" : "Drizzle ORM",
+        "url" : "https://orm.drizzle.team/docs/quick-start",
+        "type" : "Database ORM",
+        "npm" : ["npm install drizzle-orm db_driver","&& npm install drizzle-kit --save-dev"],
+        "logo" : "drizzle.svg"
+      },
+      {
+        "name" : "GraphQL",
+        "url" : "https://graphql.org/code/",
+        "type" : "Typesafe API",
+        "npm" : ["npm install graphql"],
+        "logo" : "GraphQL.svg"
+      },
+      {
+        "name" : "tRPC",
+        "url" : "https://trpc.io/docs/quickstart",
+        "type" : "Typesafe API",
+        "npm" : ["npm install @trpc/server @trpc/client"],
+        "logo" : "tRPC.svg"
+      },
+      {
+        "name" : "Zod",
+        "url" : "https://zod.dev/",
+        "type" : "TypeScript-first data validation",
+        "npm" : ["npm install zod"],
+        "logo" : "zod.svg"
+      },
+      {
+        "name" : "React Router",
+        "url" : "https://reactrouter.com/en/main",
+        "type" : "Router library for react", 
+        "npm" : ["npm install react-router-dom localforage match-sorter sort-by"],
+        "logo" : "react-router.svg"
+      },
+      {
+        "name" : "Tanstack Query / React",
+        "url" : "https://tanstack.com/query/v3/docs/react/overview",
+        "type" : "State management library", 
+        "npm" : ["npm install react-query"],
+        "logo" : "tanstack.svg"
+      },
+      {
+        "name" : "Redux",
+        "url" : "https://redux.js.org/introduction/installation",
+        "type" : "State management library", 
+        "npm" : ["npm install @reduxjs/toolkit", "npm install react-redux"],
+        "logo" : "redux.svg"
+      },
+      {
+        "name" : "Rollup",
+        "url" : "https://rollupjs.org/introduction",
+        "type" : "Module bundler",
+        "npm" : ["npm install -g rollup"],
+        "logo" : "rollup.svg"
+      },
+      {
+        "name" : "Gulp",
+        "url" : "https://remix.run/docs/en/1.19.3",
+        "type" : "Automate workflows",
+        "npm" : ["npm install --save-dev gulp"],
+        "logo" : "gulp.svg"
+      },  
+      {
+        "name" : "ThreeJS",
+        "url" : "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene",
+        "type" : "3D library", 
+        "npm" : ["npm install --save three"],
+        "logo" : "threejs.svg"
+      },
+      {
+        "name" : "CylonJS",
+        "url" : "https://cylonjs.com/documentation/",
+        "type" : "Robotic / IoT library", 
+        "npm" : ["npm install cylon"],
+        "logo" : "cylonjs.svg"
+      },
+      {
+        "name" : "Faker",
+        "url" : "https://fakerjs.dev/guide/",
+        "type" : "Utility library", 
+        "npm" : ["npm install @faker-js/faker --save-dev"],
+        "logo" : "faker.svg"
+      } 
+    ]
+}
