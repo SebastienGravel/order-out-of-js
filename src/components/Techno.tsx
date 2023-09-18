@@ -9,7 +9,7 @@ function Techno(){
             return (
                 <div key={idx} className="d-flex justify-content-start align-items-center techno">
                     <div>
-                        <img className="logo me-3" src={`https://sebastiengravel.github.io/order-out-of-js/assets/${t.logo}`} alt={t.name} loading="lazy"/>
+                        <img className="logo me-3" src={`${import.meta.env.VITE_IMG_URL}${t.logo}`} alt={t.name} loading="lazy"/>
                     </div>
                     <div className="text-start">
                         <h3>{t.name}</h3>
